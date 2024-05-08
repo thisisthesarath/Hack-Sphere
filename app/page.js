@@ -104,7 +104,7 @@ export default function Home() {
               className="text-[#FAF8ED] text-[1.25rem] font-medium text-left 
               lg:text-right lg:text-[1.5rem]"
             >
-              Join us at IIIT Jabalpur, April
+              Join us at IIIT Jabalpur, August 14 vanthu serunga da bundaingala
               <br />
               5-7 for an in-person hackathon.
             </p>
