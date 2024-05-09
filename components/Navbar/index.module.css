@@ -1,5 +1,5 @@
 .hamburger {
-  position: relative;
+  position:fixed;
   display: flex;
   flex-direction: column;
   align-items: flex-end;
