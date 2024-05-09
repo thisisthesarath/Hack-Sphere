@@ -37,7 +37,7 @@ export default function Home() {
     {
       number: 100,
       label: "Volunteers",
-      description: "To help you, get the best out of HackByte.",
+      description: "To help you, get the best out of HackSphere.",
     },
     {
       number: 120,
@@ -104,9 +104,9 @@ export default function Home() {
               className="text-[#FAF8ED] text-[1.25rem] font-medium text-left 
               lg:text-right lg:text-[1.5rem]"
             >
-              Join us at IIIT Jabalpur, August 14 vanthu serunga da bundaingala
+              Join us at SRCAS, August 14
               <br />
-              5-7 for an in-person hackathon.
+              4-6 for an in-person hackathon.
             </p>
             <Link href="/prizes#logitech-tracks" passHref>
               <Button
@@ -119,7 +119,7 @@ export default function Home() {
                     "0px 1px 1px 0px rgba(0, 0, 0, 0.12), 0px 0px 0px 1px rgba(103, 110, 118, 0.16), 0px 2px 5px 0px rgba(103, 110, 118, 0.08)",
                 }}
               >
-                Explore Logitech Tracks
+                Explore Pricing
                 <ArrowTopRightIcon className="w-5 h-5 ml-1" />
               </Button>
             </Link>
@@ -136,14 +136,14 @@ export default function Home() {
             >
               <div className="flex justify-center items-center gap-4">
                 <img
-                  src="/tpcLogo.svg"
-                  alt="TPC Logo"
+                  src="/ProClubLogo.png"
+                  alt="Programming Club Logo"
                   className="w-[4rem] h-[2.125rem]"
                 />
                 <p className="text-[#FAF8ED] text-[0.75rem] font-[600]">
                   Organised by
                   <br className="hidden md:block" /> The Programming Club of
-                  IIITDMJ
+                  SRCAS
                 </p>
               </div>
             </div>
@@ -153,8 +153,8 @@ export default function Home() {
             >
               <div className="flex justify-center items-center">
                 <img
-                  src="/iiitdmjLogo.svg"
-                  alt="IIITDMJ Logo"
+                  src="https://upload.wikimedia.org/wikipedia/en/thumb/d/db/Sri_Ramakrishna_College_of_Arts_and_Science.svg/1200px-Sri_Ramakrishna_College_of_Arts_and_Science.svg.png"
+                  alt="SRCAS Logo"
                   className="w-[6rem] h-[3rem]"
                 />
               </div>
@@ -215,14 +215,14 @@ export default function Home() {
                   className="text-center text-[#F5F0D8] text-3xl lg:text-4xl 
                     font-medium leading-[44px]"
                 >
-                  Why participate in Hackbyte?
+                  Why participate in HackSphere?
                 </p>
               </div>
               <p
                 className="text-center text-[#D1CAC7] text-lg lg:text-xl 
                   font-normal font-['Inter'] leading-[30px]"
               >
-                HackByte 2.0 promises a wonderful experience to the
+                HackSphere 24 promises a wonderful experience to the
                 participants.
               </p>
             </div>
@@ -280,7 +280,7 @@ export default function Home() {
                 className="max-w-[30rem] text-black text-base md:text-sm lg:text-lg 
                 font-normal font-['Inter'] leading-6 sm:leading-7 tracking-tight"
               >
-                To stay up-to-date with HackByte 2.0, consider subscribing to
+                To stay up-to-date with HackSphere 24, consider subscribing to
                 our mailing list. Helps us share important updates right away
                 with hackers and enthusiasts alike !
               </p>
@@ -320,7 +320,7 @@ export default function Home() {
                   className=" text-black text-base md:text-sm lg:text-lg font-normal 
                   font-['Inter'] leading-6 sm:leading-7 tracking-tight"
                 >
-                  Be the first ones to register for HackByte 2.0
+                  Be the first ones to register for HackSphere 24
                 </p>
               </div>
             </div>
@@ -345,9 +345,8 @@ export default function Home() {
           text-white font-normal md:leading-[8rem] lg:leading-[10rem] 
             tracking-tighter md:tracking-[-0.2rem]"
           >
-            Empower
-            <br /> Your Digital
-            <br /> Odyssey!
+            Code the
+            <br /> Future!
           </p>
 
           <FooterAnimation />
