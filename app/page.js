@@ -49,39 +49,39 @@ export default function Home() {
   const aboutData = [
     {
       imgSrc: "/aboutPage/img1.svg",
-      title: "Collaborate and skill up",
+      title: "Team Up and Elevate",
       description:
-        "Connect with people, form a team, learn new skills and develop amazing projects!",
+        "Forge connections, team up, and elevate your skills while crafting innovative projects!",
     },
     {
       imgSrc: "/aboutPage/img2.svg",
-      title: "Exciting Prices",
+      title: "Win Big",
       description:
-        "Top 3 teams plus best projects of each domain will win prizes which will be disclosed soon!",
+        "Exciting prizes await the top 3 teams and outstanding projects in each category - prizes will be revealed soon!",
     },
     {
       imgSrc: "/aboutPage/img3.svg",
-      title: "Engaging Workshops",
+      title: "Immersive Learning",
       description:
-        "Technical workshops and events like no-light event will keep the participants engaged throughout.",
+        "Immerse yourself in technical workshops and thrilling challenges like the no-light event, ensuring an engaging experience throughout.",
     },
     {
       imgSrc: "/aboutPage/img4.svg",
-      title: "Mentorship sessions",
+      title: "Guidance from Experts",
       description:
-        "Get mentorship and guidance from prominent technocrats of the industry.",
+        "Receive invaluable mentorship and insights from industry leaders who are passionate about nurturing talent.",
     },
     {
       imgSrc: "/aboutPage/img5.svg",
-      title: "Recruitment offers",
+      title: "Unlock Career Paths",
       description:
-        "Best performers will get recruitment offers from prestigious companies.",
+        "Excel and unlock doors to career opportunities with coveted offers from esteemed companies seeking top talent.",
     },
     {
       imgSrc: "/aboutPage/img6.svg",
-      title: "Expand network",
+      title: "Expand Your Circle",
       description:
-        "Connect with industry professionals and recruiters and other teams to learn and grow more.",
+        "Network with industry professionals, recruiters, and fellow participants to broaden your horizons and glean insights from diverse perspectives.",
     },
   ];
 
@@ -119,7 +119,7 @@ export default function Home() {
                     "0px 1px 1px 0px rgba(0, 0, 0, 0.12), 0px 0px 0px 1px rgba(103, 110, 118, 0.16), 0px 2px 5px 0px rgba(103, 110, 118, 0.08)",
                 }}
               >
-                Explore Pricing
+                Explore Prizes
                 <ArrowTopRightIcon className="w-5 h-5 ml-1" />
               </Button>
             </Link>
@@ -215,15 +215,14 @@ export default function Home() {
                   className="text-center text-[#F5F0D8] text-3xl lg:text-4xl 
                     font-medium leading-[44px]"
                 >
-                  Why participate in HackSphere?
+                  Ready to Launch Your Tech Journey?
                 </p>
               </div>
               <p
                 className="text-center text-[#D1CAC7] text-lg lg:text-xl 
                   font-normal font-['Inter'] leading-[30px]"
               >
-                HackSphere 24 promises a wonderful experience to the
-                participants.
+                Searching for the perfect springboard to dive into the tech industry and rub elbows with the pros? HackSphere could be your launchpad.
               </p>
             </div>
 
