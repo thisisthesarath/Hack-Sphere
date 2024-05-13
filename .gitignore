@@ -7,9 +7,9 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
-.next
 node_modules
 dist
+.next
 dist-ssr
 *.local
 
