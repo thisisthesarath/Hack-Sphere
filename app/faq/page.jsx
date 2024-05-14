@@ -31,26 +31,26 @@ export default function FAQ() {
   const data = [
     {
       title: "How do I register ?",
-      content: "Pre-registration will be opening in January 2024",
+      content: "Ready to dive in? July 2024 marks the start of pre-registration!",
     },
     {
       title: "How many team members do I need ?",
       content:
-        "You can participate individually or in teams of 2 to 4 members. If you are participating in the hackathon individually and looking for a team, we will help you in connecting to other individual participants to get you a team.",
+        "Your team must consist of 3 to 6 members.",
     },
     {
       title: "How much are the participation fees?",
       content:
-        "Participation is absolutely free inclusive of food and accomodation. Isnt that great? So register ASAP!!",
+        "Participation is absolutely free for first round. Isn't that great? So register ASAP!!",
     },
     {
       title: "Will the Hackathon be in person or online ?",
-      content: "HackByte will be conducted in complete offline/in-person mode.",
+      content: "HackSphere will be conducted in complete offline/in-person mode.",
     },
     {
-      title: "What is the venue for HackByte 2.0 ?",
+      title: "What is the venue for HackSphere' 24?",
       content:
-        "IIITDM Jabalpur, explore our beautiful campus while thinking about innovating some crazy thing.",
+        "SRCAS Coimbatore, explore our beautiful campus while thinking about innovating some crazy thing.",
     },
     {
       title: "What are the prerequisites to participate in this hackathon ?",
@@ -59,15 +59,15 @@ export default function FAQ() {
     },
     {
       title:
-        "Is the food and accommodation provided free of charge or are there any associated costs ?",
+        "What should I bring?",
       content:
-        "We've got you covered when it comes to food, water, and coffee – they're on us. However, any additional snacks can be purchased separately. As for accommodation, we will provide arrangements similar to those found in other hackathons, which typically involve a set of mattresses in a common hall.",
+        "Every essential thing you need in order to complete your solution.",
     },
     {
       title:
-        "Can my friend join our team after we have already submitted the application for review ?",
+        "Who can I contact for further information or assistance?",
       content:
-        "Yes, your friend can join the team by submitting an individual application. Once both your friend's individual application and your team's application are accepted, you will be able to add your friend to the team.",
+        "You can mail to hacksphere@gmail.com or check our contact page for more contact details, we're waiting to respond you.",
     },
   ];
 
@@ -87,14 +87,14 @@ export default function FAQ() {
             gap-12 md:gap-0 md:flex-row md:items-start"
           >
             <div className="flex flex-col items-start gap-8">
-              <TextAnimation text="Everything you need to know!" />
+              <TextAnimation text="Everything you need , right here!" />
               <p
                 className="w-full text-[#C3C3C3] font-['Inter'] font-normal 
                   text-[1.25rem] sm:max-w-[32rem] lg:max-w-[40rem] xl:max-w-[50rem] 
                   2xl:max-w-[55rem] md:text-[1rem] xl:text-[1.5rem]"
               >
-                Hacker Experience is what we prioritize! Have questions, need
-                assistance, or just want to connect? Feel free to reach out!
+                Elevating your hacker journey is what we're all about! 
+                Don't hesitate to contact us for assistance or to connect with like-minded individuals.
               </p>
             </div>
             <img
@@ -118,8 +118,7 @@ export default function FAQ() {
             </div>
             <div className="max-w-[448px]">
               <span className="text-gray-200 text-lg font-normal font-['Inter'] leading-7">
-                Everything you need to know about the product and billing. Can't
-                find the answer you're looking for? Please{" "}
+              Unlock Product Insights and Billing Know-How! Can't find what you're after? Chat with our stellar team!{" "}
               </span>
               <span className="text-gray-200 text-lg font-normal font-['Inter'] leading-7">
                 chat to our friendly team.

@@ -83,8 +83,8 @@ export default function NewsLetter() {
             </div>
           </div>
 
-          <div className="flex flex-col justify-start items-start gap-4 lg:flex-row w-full xl:max-w-md">
-            <div className="w-full md:max-w-lg flex-col justify-start items-start gap-1.5 inline-flex">
+          <div className="flex flex-col justify-end items-start gap-4 lg:flex-row w-full xl:max-w-md">
+            {/* <div className="w-full md:max-w-lg flex-col justify-start items-start gap-1.5 inline-flex">
               <input
                 type="text"
                 placeholder="Enter your email"
@@ -93,7 +93,7 @@ export default function NewsLetter() {
                 className="w-full py-3 px-3.5 bg-[#ffffff] rounded-lg text-gray-500 
                     border-2 border-[#D0D5DD] focus:outline-purple-300 focus:text-gray-900"
               />
-            </div>
+            </div> */}
             <motion.button
               className="w-full lg:w-32 flex justify-center items-center bg-black 
                 text-white text-[1.125rem] font-medium px-8 py-3 rounded-none 
@@ -103,9 +103,9 @@ export default function NewsLetter() {
                   "0px 1px 1px 0px rgba(0, 0, 0, 0.12), 0px 0px 0px 1px rgba(103, 110, 118, 0.16), 0px 2px 5px 0px rgba(103, 110, 118, 0.08)",
               }}
               whileTap={{ scale: 0.85 }}
-              onClick={handleSubscribe}
+              onClick={() => window.location.href = "mailto:23107116@srcas.ac.in?subject=HackSphere Query&body=Please include details here."}
             >
-              Subscribe
+              Mail_Now!
             </motion.button>
           </div>
         </div>
