@@ -31,12 +31,22 @@ export default function FAQ() {
   const data = [
     {
       title: "How do I register ?",
-      content: "Ready to dive in? July 2024 marks the start of pre-registration!",
+      content: "Register on our website at [Registration Link].",
     },
     {
       title: "How many team members do I need ?",
       content:
         "Your team must consist of 3 to 6 members.",
+    },
+    {
+      title: "Can team members be from different Colleges?",
+      content:
+        "Yes, team members can be from different organizations.",
+    },
+    {
+      title: "Who is eligible to participate in the hackathon?",
+      content:
+        "Any College student can participate in this Hackathon",
     },
     {
       title: "How much are the participation fees?",
@@ -48,26 +58,36 @@ export default function FAQ() {
       content: "HackSphere will be conducted in complete offline/in-person mode.",
     },
     {
-      title: "What is the venue for HackSphere' 24?",
+      title: "What is the schedule of the hackathon?",
+      content: "The schedule is available on our website's schedule page.",
+    },
+    {
+      title: "Where is the hackathon being held?",
       content:
         "SRCAS Coimbatore, explore our beautiful campus while thinking about innovating some crazy thing.",
     },
     {
       title: "What are the prerequisites to participate in this hackathon ?",
       content:
-        "No prerequisites are required to participate in this hackathon. This event is open to participants of all skill levels.",
+        "Participation in this hackathon does not require any prior qualifications. Individuals of any skill level are encouraged to take part.",
     },
     {
       title:
         "What should I bring?",
       content:
-        "Every essential thing you need in order to complete your solution.",
+        "All the necessary components required to finish your solution.",
+    },
+    {
+      title:
+        "Will there be mentors or experts available to help during the hackathon?",
+      content:
+        "Yes, mentors will be available throughout the event.",
     },
     {
       title:
         "Who can I contact for further information or assistance?",
       content:
-        "You can mail to hacksphere@gmail.com or check our contact page for more contact details, we're waiting to respond you.",
+        "Feel free to send an email to hacksphere@gmail.com, or visit our contact page for additional contact information. We're eagerly awaiting your message.",
     },
   ];
 

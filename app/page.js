@@ -273,15 +273,14 @@ export default function Home() {
                 className=" text-black text-4xl lg:text-5xl font-medium 
                   leading-[2.75rem] tracking-tighter"
               >
-                Join our mailing list!
+                Mail us!
               </p>
               <p
                 className="max-w-[30rem] text-black text-base md:text-sm lg:text-lg 
                 font-normal font-['Inter'] leading-6 sm:leading-7 tracking-tight"
               >
-                To stay up-to-date with HackSphere 24, consider subscribing to
-                our mailing list. Helps us share important updates right away
-                with hackers and enthusiasts alike !
+                Have any queries about the hackathon? Whether its about registration, schedules, or rules, 
+                we're here to assist you. Email us, and we will get back to you promptly!
               </p>
             </div>
 

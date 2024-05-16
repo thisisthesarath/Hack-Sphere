@@ -73,13 +73,13 @@ export default function NewsLetter() {
               className="self-stretch text-gray-900 text-3xl md:text-2xl lg:text-3xl 
                 font-medium leading-8"
             >
-              Join our newsletter
+              Join our Mailing List
             </div>
             <div
               className="self-stretch text-slate-600 text-lg md:text-base lg:text-xl 
                 font-normal leading-[1.75rem]"
             >
-              Sign up to receive updates on our latest events.
+              Through us your queries now!
             </div>
           </div>
 
