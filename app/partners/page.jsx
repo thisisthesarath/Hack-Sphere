@@ -232,9 +232,8 @@ const Partners = () => {
             text-white font-normal md:leading-[8rem] lg:leading-[10rem] 
             tracking-tighter md:tracking-[-0.2rem]"
           >
-            Empower
-            <br /> Your Digital
-            <br /> Odyssey!
+            Code the 
+            <br /> Future!
           </p>
 
           <FooterAnimation />

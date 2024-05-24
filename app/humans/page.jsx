@@ -325,7 +325,7 @@ export default function Team() {
                 md:text-[4rem] xl:text-[5rem] md:leading-[4.5rem] xl:leading-[5.25rem]"
             >
               Meet the humans of
-              <br /> Hackbyte 2.0
+              <br /> Hacksphere' 24
             </p>
           </div>
         </div>
@@ -382,9 +382,8 @@ export default function Team() {
             text-white font-normal md:leading-[8rem] lg:leading-[10rem] 
             tracking-tighter md:tracking-[-0.2rem]"
           >
-            Empower
-            <br /> Your Digital
-            <br /> Odyssey!
+            Code the
+            <br /> Future!
           </p>
 
           <FooterAnimation />

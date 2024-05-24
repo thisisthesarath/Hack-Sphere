@@ -194,14 +194,14 @@ export default function Prizes() {
                 monetary prizes will be split equally among the winning team
                 members.
               </p>
-              <div className="rounded-full border border-[#D1CAC7] px-4 py-1">
+              {/* <div className="rounded-full border border-[#D1CAC7] px-4 py-1">
                 <p
                   className="w-full text-[#C3C3C3] font-[Inter] 
                   text-center font-normal text-[1.25rem] md:text-[1.5rem]"
                 >
                   Winners will also get MLH winner pins 🌟
                 </p>
-              </div>
+              </div> */}
             </div>
           </div>
 
@@ -304,7 +304,7 @@ export default function Prizes() {
               and win amazing prizes along the way!
             </p>
           </div>
-
+{/* 
           <div
             className="mt-[4.5rem] px-[1rem] md:px-[3.5rem] py-[4.5rem] 
               rounded-[8px] border-2 border-[rgba(255,255,255,0.5)]"
@@ -361,15 +361,15 @@ export default function Prizes() {
                 </Button>
               </a>
             </div>
-          </div>
+          </div> */}
 
           <div className="flex flex-col items-center mt-[4.5rem]">
-            <p
+            {/* <p
               className="text-[#F5F0D8] text-center font-normal text-[2.25rem] 
                 md:text-[5rem] leading-10 md:leading-[5rem] xl:leading-[4.5rem]"
             >
               Explore more tracks by Logitech
-            </p>
+            </p> */}
 
             <div
               className="w-full grid grid-cols-1 xl:grid-cols-2 place-content-center 
@@ -419,9 +419,8 @@ export default function Prizes() {
             text-white font-normal md:leading-[8rem] lg:leading-[10rem] 
             tracking-tighter md:tracking-[-0.2rem]"
           >
-            Empower
-            <br /> Your Digital
-            <br /> Odyssey!
+            Code the 
+            <br /> Future!
           </p>
 
           <FooterAnimation />

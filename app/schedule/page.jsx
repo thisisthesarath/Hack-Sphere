@@ -224,7 +224,7 @@ export default function Schedule() {
               className="w-full xl:max-w-[80%] text-[#C3C3C3] font-[Inter] 
                 text-center font-normal text-[1.25rem] md:text-[1.5rem]"
             >
-              Join us for a day packed with coding challenges, workshops, and
+              Join us for a day packed with coding challenges and
               networking. Elevate your skills and collaborate with fellow
               hackers!
             </p>
@@ -262,7 +262,7 @@ export default function Schedule() {
                         textShadow: "0px 0px 100px rgba(242, 210, 59, 0.80)",
                       }}
                     >
-                      Day 1
+                      Round1
                     </p>
                     <Image
                       src={rightLeaf}
@@ -280,7 +280,7 @@ export default function Schedule() {
                       WebkitTextFillColor: "transparent",
                     }}
                   >
-                    Ideate and finalize your project
+                    Submit Your Solution PPT Within 31/07/2024
                   </p>
                 </div>
 
@@ -288,8 +288,7 @@ export default function Schedule() {
                   className="text-[#D1CAC7] font-[Inter] text-center font-normal 
                     text-[1rem] md:text[1.125rem]"
                 >
-                  Meet and network with fellow hackers, shortlist the techstack
-                  your team will be working on
+                  You should create a PPT upto 4 pages which describes your solution. You can mention your tech stack, tools, flowchart, etc,,.
                 </p>
               </div>
             </DialogTrigger>
@@ -370,7 +369,7 @@ export default function Schedule() {
                         textShadow: "0px 0px 100px rgba(242, 210, 59, 0.80)",
                       }}
                     >
-                      Day 2
+                      Finalists
                     </p>
                     <Image
                       src={rightLeaf}
@@ -388,7 +387,7 @@ export default function Schedule() {
                       WebkitTextFillColor: "transparent",
                     }}
                   >
-                    Coffee, mini events and yes, the MVP
+                    The announcement of selected teams!
                   </p>
                 </div>
 
@@ -396,8 +395,7 @@ export default function Schedule() {
                   className="text-[#D1CAC7] font-[Inter] text-center font-normal 
                     text-[1rem] md:text[1.125rem]"
                 >
-                  Seek help from mentors to make an MVP, along with some really
-                  cool workshop sessions 👀
+                  The selected teams from round 1 will be announced on 10/08/2024!
                 </p>
               </div>
             </DialogTrigger>
@@ -477,7 +475,7 @@ export default function Schedule() {
                         textShadow: "0px 0px 100px rgba(242, 210, 59, 0.80)",
                       }}
                     >
-                      Day 3
+                      Finale
                     </p>
                     <Image
                       src={rightLeaf}
@@ -495,7 +493,7 @@ export default function Schedule() {
                       WebkitTextFillColor: "transparent",
                     }}
                   >
-                    The Final Sprint
+                    The Final Showdown
                   </p>
                 </div>
 
@@ -503,8 +501,7 @@ export default function Schedule() {
                   className="text-[#D1CAC7] font-[Inter] text-center font-normal 
                     text-[1rem] md:text[1.125rem]"
                 >
-                  Improve upon the MVP, polish your elevator pitch and submit
-                  your project on Devfolio with documentation
+                  The hackathon begins in offline mode at 15/08/2024. Get all your preparations done before that!
                 </p>
               </div>
             </DialogTrigger>
@@ -569,9 +566,8 @@ export default function Schedule() {
               text-white font-normal md:leading-[8rem] lg:leading-[10rem] 
               tracking-tighter md:tracking-[-0.2rem]"
           >
-            Empower
-            <br /> Your Digital
-            <br /> Odyssey!
+            Code the
+            <br /> Future!
           </p>
 
           <FooterAnimation />

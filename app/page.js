@@ -25,14 +25,14 @@ const SocialMediaIcon = ({ Icon, href }) => (
 export default function Home() {
   const statisticsData = [
     {
-      number: 1500,
-      label: "Registrations",
-      description: "1500+ registrations from across the country.",
+      number: 16,
+      label: "Goals",
+      description: "More than 16 goals, choose your own problem!",
     },
     {
-      number: 500,
-      label: "Offline Participants",
-      description: "500+ participants joined the offline hackathon!",
+      number: 15,
+      label: "Exclusive Prices",
+      description: "Get a chance to win other prices excluding first and second",
     },
     {
       number: 100,
@@ -40,9 +40,9 @@ export default function Home() {
       description: "To help you, get the best out of HackSphere.",
     },
     {
-      number: 120,
-      label: "Projects",
-      description: "Innovative submissions from various domains.",
+      number: 10,
+      label: "Mentors",
+      description: "To help you during the hackathon!",
     },
   ];
 
