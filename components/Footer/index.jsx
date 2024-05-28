@@ -15,7 +15,7 @@ const SocialMediaIcon = ({ Icon, href }) => (
 const Footer = () => {
   const navigationItems = [
     { label: "Home", href: "/" },
-    { label: "Gallery", href: "/gallery" },
+    // { label: "Gallery", href: "/gallery" },
     { label: "Partners", href: "/partners" },
     { label: "Prizes", href: "/prizes" },
     { label: "Schedule", href: "/schedule" },
@@ -61,7 +61,7 @@ const Footer = () => {
         className="text-stone-400 text-lg font-normal leading-normal 
           tracking-tight pt-12 mb-8"
       >
-        © 2024 Hackbyte, All rights reserved
+        We are awaiting for your presence!
       </p>
     </div>
   );

@@ -168,9 +168,9 @@ const Partners = () => {
               className="w-full lg:max-w-[80%] text-[#C3C3C3] font-[Inter] 
                 text-center font-normal text-[1.25rem] md:text-[1.5rem]"
             >
-              We are proud to collaborate with visionary organizations that
-              share our passion for innovation and technology. These esteemed
-              partners play a crucial role in making our hackathon a success
+              We take pride in partnering with visionary organizations that share
+               our enthusiasm for innovation and technology. These respected allies
+                are instrumental in ensuring the success of our hackathon.
             </p>
           </div>
         </div>

@@ -25,24 +25,24 @@ const SocialMediaIcon = ({ Icon, href }) => (
 export default function Home() {
   const statisticsData = [
     {
-      number: 16,
-      label: "Goals",
-      description: "More than 16 goals, choose your own problem!",
+      number: 3,
+      label: "Sessions",
+      description: "To help you get some better knowledge from the experts!",
     },
     {
       number: 15,
-      label: "Exclusive Prices",
-      description: "Get a chance to win other prices excluding first and second",
+      label: "Special Prizes ",
+      description: "Seize the opportunity to pursue prizes beyond the first and second place.",
     },
     {
-      number: 100,
-      label: "Volunteers",
-      description: "To help you, get the best out of HackSphere.",
+      number: 30,
+      label: "Contributors",
+      description: "To optimize your experience with HackSphere!",
     },
     {
-      number: 10,
+      number: 20,
       label: "Mentors",
-      description: "To help you during the hackathon!",
+      description: "To Assist you throughout the hackathon!",
     },
   ];
 
@@ -106,7 +106,7 @@ export default function Home() {
             >
               Join us at SRCAS, August 14
               <br />
-              4-6 for an in-person hackathon.
+              for an 2-4 in-person hackathon.
             </p>
             <Link href="/prizes#logitech-tracks" passHref>
               <Button
@@ -119,7 +119,7 @@ export default function Home() {
                     "0px 1px 1px 0px rgba(0, 0, 0, 0.12), 0px 0px 0px 1px rgba(103, 110, 118, 0.16), 0px 2px 5px 0px rgba(103, 110, 118, 0.08)",
                 }}
               >
-                Explore Prizes
+                Register Now!
                 <ArrowTopRightIcon className="w-5 h-5 ml-1" />
               </Button>
             </Link>

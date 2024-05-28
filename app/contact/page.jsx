@@ -91,8 +91,8 @@ export default function Contact() {
                   By Train
                 </p>
                 <p className="text-[#D1CAC7] font-['Inter'] text-[1rem] font-normal md:text-[1.125rem]">
-                  Book tickets from IRCTC : The campus is 10kms from the Railway
-                  Terminal and auto fare is usually around ₹200-₹250.
+                  Book tickets from IRCTC : The campus is 10kms from the Railway.
+                  Our campus is around 10kms from station. Town buses will be always available!
                 </p>
               </div>
             </div>
@@ -148,8 +148,9 @@ export default function Contact() {
                   <span className="font-[600]">
                     Coimbatore (Gandhipuram Main Bus Stand)
                   </span>{" "}
-                  is around 6km from the venue, auto fare is usually around{" "}
-                  <span className="font-[600]">₹100-₹250</span>.
+                  is around 6km from the venue.
+                  {/* , auto fare is usually around{" "}
+                  <span className="font-[600]">₹100-₹250</span>. */}
                 </p>
               </div>
             </div>
@@ -165,11 +166,11 @@ export default function Contact() {
               font-normal text-[1rem] md:flex-row lg:text-[1.5rem]"
               >
                 <div className="flex flex-col items-start gap-2">
-                  <p>+91 89498 47292</p>
+                  <p>+91 78453 14345</p>
                   <p>John Samuel</p>
                 </div>
                 <div className="flex flex-col items-start gap-2">
-                  <p>+91 73758 32032</p>
+                  <p>+91 97863 50537</p>
                   <p>Tino Britty</p>
                 </div>
               </div>

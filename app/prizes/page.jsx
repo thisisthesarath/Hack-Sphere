@@ -190,9 +190,8 @@ export default function Prizes() {
                 className="w-full lg:max-w-[80%] text-[#C3C3C3] font-[Inter] 
                   text-center font-normal text-[1.25rem] md:text-[1.5rem]"
               >
-                Collaborate and innovate to build something awesome ! All
-                monetary prizes will be split equally among the winning team
-                members.
+                Combine your skills and creativity to build something outstanding!
+                 Any prize money will be split equally among all participants.
               </p>
               {/* <div className="rounded-full border border-[#D1CAC7] px-4 py-1">
                 <p
@@ -215,7 +214,17 @@ export default function Prizes() {
               />
             </div>
 
-            <div className="grid grid-cols-1 gap-6 md:gap-8 lg:grid-cols-2">
+            <div className="grid grid-cols-1">
+              <PrizeCard
+                amount="15K"
+                category="2nd prize- Silver"
+                default_bg="radial-gradient(148.8% 129.29% at 94.87% 3.94%, #363636 0%, rgba(26, 26, 26, 0.27) 100%)"
+                hover_bg="radial-gradient(371.89% 134.33% at 3.21% 1.26%,rgba(255, 255, 255, 0.07) 0%,rgba(217, 217, 217, 0.00) 100%)"
+              />
+            </div>
+
+            {/* <div className="grid grid-cols-1 gap-6 md:gap-8 lg:grid-cols-2">
+              
               <PrizeCard
                 amount="15K"
                 category="2nd prize- Silver"
@@ -227,8 +236,8 @@ export default function Prizes() {
                 category="3rd prize- Bronze"
                 default_bg="radial-gradient(148.8% 129.29% at 94.87% 3.94%, #363636 0%, rgba(26, 26, 26, 0.27) 100%)"
                 hover_bg="radial-gradient(371.89% 134.33% at 3.21% 1.26%,rgba(255, 255, 255, 0.07) 0%,rgba(217, 217, 217, 0.00) 100%)"
-              />
-            </div>
+              /> 
+            </div> */}
             <div className="grid grid-cols-1 gap-6 md:gap-8 lg:grid-cols-2">
               <div
                 className="flex flex-col items-center gap-12 px-8 py-6 
@@ -382,7 +391,7 @@ export default function Prizes() {
           </div>
         </div>
 
-        {/* Sponsor Tracks Section */}
+        {/* Sponsor Tracks Section 
         <div className="w-full flex flex-col pt-24">
           <div className="flex flex-col items-center gap-4 md:gap-6">
             <p className="text-[#F5F0D8] text-[2.25rem] font-normal md:text-[5rem]">
@@ -406,7 +415,7 @@ export default function Prizes() {
               <TSPrizeCard key={index} index={index} {...sponsor} />
             ))}
           </div>
-        </div>
+        </div>*/}
       </div>
 
       <div className="bg-black w-full h-full py-24 lg:py-40">
