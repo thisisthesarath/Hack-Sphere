@@ -36,12 +36,12 @@ export default function FAQ() {
     {
       title: "How many team members do I need ?",
       content:
-        "Your team must consist of 3 to 6 members.",
+        "Your team must consist of 2 to 4 members.",
     },
     {
       title: "Can team members be from different Colleges?",
       content:
-        "Yes, team members can be from different organizations.",
+        "No, team members should be from same College.",
     },
     {
       title: "Who is eligible to participate in the hackathon?",
@@ -51,7 +51,7 @@ export default function FAQ() {
     {
       title: "How much are the participation fees?",
       content:
-        "Participation is absolutely free for first round. Isn't that great? So register ASAP!!",
+        "Participation is absolutely free of cost. Isn't that great? So register ASAP!!",
     },
     {
       title: "Will the Hackathon be in person or online ?",

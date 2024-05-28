@@ -4,7 +4,7 @@ import "react-toastify/dist/ReactToastify.css";
 import "./clash_grotesk.css";
 
 export const metadata = {
-  title: "HackByte - IIITDMJ Hackathon",
+  title: "HackSphere - SRCAS Hackathon",
   description:
     "HackByte is the IIITDMJ's student-run hackathon, which centers on bringing developers and problem solvers from different foundations together and enables them to develop projects that can bring out an impact.",
   keywords: "hackathon, IIITDMJ, hackbyte, coding, programming, tech",
