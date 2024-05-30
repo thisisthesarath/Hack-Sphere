@@ -165,7 +165,7 @@ export default function Home() {
               className="text-[#FAF8ED] text-[1rem] xl:text-[1.25rem] 
                 font-semibold text-right"
             >
-              We Think to Innovate
+             We Contemplate to Create
             </p>
             <div className="flex gap-6">
               <SocialMediaIcon
@@ -215,14 +215,14 @@ export default function Home() {
                   className="text-center text-[#F5F0D8] text-3xl lg:text-4xl 
                     font-medium leading-[44px]"
                 >
-                  Ready to Launch Your Tech Journey?
+                  All Set to Begin Your Tech Adventure?
                 </p>
               </div>
               <p
                 className="text-center text-[#D1CAC7] text-lg lg:text-xl 
                   font-normal font-['Inter'] leading-[30px]"
               >
-                Searching for the perfect springboard to dive into the tech industry and rub elbows with the pros? HackSphere could be your launchpad.
+                Are you looking for the ideal launching pad to enter the tech sector and network with industry experts? Consider HackSphere as your starting point.
               </p>
             </div>
 
@@ -279,8 +279,8 @@ export default function Home() {
                 className="max-w-[30rem] text-black text-base md:text-sm lg:text-lg 
                 font-normal font-['Inter'] leading-6 sm:leading-7 tracking-tight"
               >
-                Have any queries about the hackathon? Whether its about registration, schedules, or rules, 
-                we're here to assist you. Email us, and we will get back to you promptly!
+                Got any questions concerning the hackathon? We are available to help you with any questions you may have regarding registration, timetables, or rules. Send us an email, and we'll respond right away!
+
               </p>
             </div>
 
@@ -294,7 +294,7 @@ export default function Home() {
                   className=" text-black text-base md:text-sm lg:text-lg font-normal 
                   font-['Inter'] leading-6 sm:leading-7 tracking-tight"
                 >
-                  Get updates about your application status
+                  Obtain information about the current state of the application you submitted.
                 </p>
               </div>
               <div className="flex gap-3 sm:gap-4 items-center">
@@ -306,7 +306,7 @@ export default function Home() {
                   className=" text-black text-base md:text-sm lg:text-lg font-normal 
                   font-['Inter'] leading-6 sm:leading-7 tracking-tight"
                 >
-                  Get notified for exciting events!
+                  Receive alerts about fascinating events!
                 </p>
               </div>
               <div className="flex gap-3 sm:gap-4 items-center">
@@ -318,7 +318,7 @@ export default function Home() {
                   className=" text-black text-base md:text-sm lg:text-lg font-normal 
                   font-['Inter'] leading-6 sm:leading-7 tracking-tight"
                 >
-                  Be the first ones to register for HackSphere 24
+                  Get registered for HackSphere 24 first.
                 </p>
               </div>
             </div>
@@ -344,7 +344,7 @@ export default function Home() {
             tracking-tighter md:tracking-[-0.2rem]"
           >
             Code the
-            <br /> Future!
+            <br /> Innovate !
           </p>
 
           <FooterAnimation />

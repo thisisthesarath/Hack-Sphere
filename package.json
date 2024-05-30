@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@firebase/app": "^0.10.5",
     "@firebase/firestore": "^x.x.x",
     "@radix-ui/react-accordion": "^1.1.2",
     "@radix-ui/react-dialog": "^1.0.5",
@@ -18,7 +19,7 @@
     "@radix-ui/react-tabs": "^1.0.4",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.0",
-    "firebase": "^10.11.1",
+    "firebase": "^10.12.2",
     "framer-motion": "^11.0.6",
     "lucide-react": "^0.323.0",
     "next": "^14.2.3",

@@ -429,7 +429,7 @@ export default function Prizes() {
             tracking-tighter md:tracking-[-0.2rem]"
           >
             Code the 
-            <br /> Future!
+            <br /> Innovate !
           </p>
 
           <FooterAnimation />
