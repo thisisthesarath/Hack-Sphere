@@ -49,39 +49,39 @@ export default function Home() {
   const aboutData = [
     {
       imgSrc: "/aboutPage/img1.svg",
-      title: "Team Up and Elevate",
+      title: "Combine Together and Develop",
       description:
-        "Forge connections, team up, and elevate your skills while crafting innovative projects!",
+        "Build colleagues, work in groups, and develop your abilities while creating creative projects!",
     },
     {
       imgSrc: "/aboutPage/img2.svg",
       title: "Win Big",
       description:
-        "Exciting prizes await the top 3 teams and outstanding projects in each category - prizes will be revealed soon!",
+        "The top 3 teams and best projects in each category will get exciting rewards, which will be announced soon!",
     },
     {
       imgSrc: "/aboutPage/img3.svg",
       title: "Immersive Learning",
       description:
-        "Immerse yourself in technical workshops and thrilling challenges like the no-light event, ensuring an engaging experience throughout.",
+        "Take part in stimulating tasks like the no-light event & technical classes to ensure that the entire experience is captivating.",
     },
     {
       imgSrc: "/aboutPage/img4.svg",
       title: "Guidance from Experts",
       description:
-        "Receive invaluable mentorship and insights from industry leaders who are passionate about nurturing talent.",
+        "Get insightful advice and priceless mentoring from business executives who are committed to developing talent.",
     },
     {
       imgSrc: "/aboutPage/img5.svg",
       title: "Unlock Career Paths",
       description:
-        "Excel and unlock doors to career opportunities with coveted offers from esteemed companies seeking top talent.",
+        "Excel and open doors to professional prospects by accepting sought offers from prestigious firms looking for exceptional candidates..",
     },
     {
       imgSrc: "/aboutPage/img6.svg",
       title: "Expand Your Circle",
       description:
-        "Network with industry professionals, recruiters, and fellow participants to broaden your horizons and glean insights from diverse perspectives.",
+        "Make connections with recruiters, business leaders, and other attendees to extend your reach and gain understanding from a variety of viewpoints.",
     },
   ];
 

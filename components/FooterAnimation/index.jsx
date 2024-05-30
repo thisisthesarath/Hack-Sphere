@@ -29,7 +29,7 @@ export default function FooterAnimation() {
   useEffect(() => {
     const rotationInterval = setInterval(() => {
       setCurrentIndex((prevIndex) => (prevIndex + 1) % images.length);
-    }, 0.5 * 1000); // Change image every 2 seconds
+    }, 0.8 * 1000); // Change image every 2 seconds
 
     return () => {
       clearInterval(rotationInterval);
