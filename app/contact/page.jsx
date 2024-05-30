@@ -200,7 +200,7 @@ export default function Contact() {
               text-white font-normal md:leading-[8rem] lg:leading-[10rem] 
               tracking-tighter md:tracking-[-0.2rem]"
           >
-            Code the
+            Code to
             <br /> Innovate !
           </p>
 
