@@ -313,7 +313,6 @@ export default function Prizes() {
               and win amazing prizes along the way!
             </p>
           </div>
-{/* 
           <div
             className="mt-[4.5rem] px-[1rem] md:px-[3.5rem] py-[4.5rem] 
               rounded-[8px] border-2 border-[rgba(255,255,255,0.5)]"
@@ -370,7 +369,7 @@ export default function Prizes() {
                 </Button>
               </a>
             </div>
-          </div> */}
+          </div> 
 
           <div className="flex flex-col items-center mt-[4.5rem]">
             {/* <p
@@ -391,7 +390,7 @@ export default function Prizes() {
           </div>
         </div>
 
-        {/* Sponsor Tracks Section 
+        Sponsor Tracks Section 
         <div className="w-full flex flex-col pt-24">
           <div className="flex flex-col items-center gap-4 md:gap-6">
             <p className="text-[#F5F0D8] text-[2.25rem] font-normal md:text-[5rem]">
@@ -415,7 +414,7 @@ export default function Prizes() {
               <TSPrizeCard key={index} index={index} {...sponsor} />
             ))}
           </div>
-        </div>*/}
+        </div>
       </div>
 
       <div className="bg-black w-full h-full py-24 lg:py-40">

@@ -45,7 +45,7 @@ const HackbyteLogo = () => {
         data-mouse="0.25"
         data-strength="0.23"
       >
-        <img src="/hacksphereLogo.png" alt="HackByte Logo" id="hackbyteLogo" />
+        <img src="/Hack.png" alt="HackByte Logo" id="hackbyteLogo" />
       </div>
     </div>
   );
