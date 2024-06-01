@@ -51,11 +51,11 @@ const ThemeTitle = () => {
 
   return (
     <>
-      <p className="text-[#ffa42c] text-[1.25rem] md:text-[1.5rem] font-bold font-medium uppercase">
+      <p className="text-[#ffffff] text-[1.25rem] md:text-[1.5rem] font-bold font-medium uppercase">
         Theme :{" "}
       </p>
       <p
-        className="text-[#fff134] text-[2.375rem] md:text-[3rem] 
+        className="text-[#ffffff] text-[2.375rem] md:text-[3rem] 
           font-medium leading-[1.2] md:leading-[1.1] font-semibold"
         onMouseEnter={textEnter}
         onMouseLeave={textLeave}
