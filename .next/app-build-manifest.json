@@ -1,11 +1,5 @@
 {
   "pages": {
-    "/layout": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/css/app/layout.css",
-      "static/chunks/app/layout.js"
-    ],
     "/not-found": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
@@ -18,29 +12,23 @@
       "static/css/app/page.css",
       "static/chunks/app/page.js"
     ],
-    "/prizes/page": [
+    "/layout": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/css/app/prizes/page.css",
-      "static/chunks/app/prizes/page.js"
-    ],
-    "/humans/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/css/app/humans/page.css",
-      "static/chunks/app/humans/page.js"
-    ],
-    "/partners/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/css/app/partners/page.css",
-      "static/chunks/app/partners/page.js"
+      "static/css/app/layout.css",
+      "static/chunks/app/layout.js"
     ],
     "/schedule/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/css/app/schedule/page.css",
       "static/chunks/app/schedule/page.js"
+    ],
+    "/humans/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/humans/page.css",
+      "static/chunks/app/humans/page.js"
     ],
     "/faq/page": [
       "static/chunks/webpack.js",

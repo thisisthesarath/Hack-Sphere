@@ -6,18 +6,18 @@ import Footer from "@/components/Footer";
 import "./page.css";
 
 export const metadata = {
-  title: "Contact | HackByte",
+  title: "Contact | HackSphere",
   description:
-    "Connect with us at HackByte! Reach out for assistance, questions, or just to say hello. Find information on reaching IIIT Jabalpur, including travel options.",
-  keywords: "contact, hackbyte, reach us, get in touch",
+    "Connect with us at HackSphere! Reach out for assistance, questions, or just to say hello. Find information on reaching SRCAS, including travel options.",
+  keywords: "contact, HackSphere, reach us, get in touch",
   openGraph: {
-    title: "Contact | HackByte",
+    title: "Contact | HackSphere",
     description:
-      "Connect with us at HackByte! Reach out for assistance, questions, or just to say hello. Find information on reaching IIIT Jabalpur, including travel options.",
+      "Connect with us at HackSphere! Reach out for assistance, questions, or just to say hello. Find information on reaching SRCAS, including travel options.",
     url: "https://hackbyte.in/contact",
     images:
       "https://res.cloudinary.com/drtmfrghg/image/upload/v1708016443/opengraph-image_vkiopn.jpg",
-    siteName: "HackByte - IIITDMJ Hackathon",
+    siteName: "HackSphere - SRCAS Hackathon",
     type: "website",
     locale: "en_US",
   },
@@ -53,7 +53,7 @@ export default function Contact() {
 
             <img
               className="w-44 h-44 md:hidden lg:block xl:h-60 xl:w-60 rotatingContainer"
-              src="/getInTouchImage.svg"
+              src="/hackbyte.png"
               alt="Get in touch"
             />
           </div>

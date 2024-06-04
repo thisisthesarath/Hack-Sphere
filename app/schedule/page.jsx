@@ -25,19 +25,19 @@ import FooterAnimation from "@/components/FooterAnimation";
 import Footer from "@/components/Footer";
 
 export const metadata = {
-  title: "Schedule | HackByte",
+  title: "Schedule | HackSphere",
   description:
-    "Check out the schedule for HackByte! Stay updated with the timeline of events and activities happening during IIIT Jabalpur's hackathon.",
+    "Check out the schedule for HackSphere! Stay updated with the timeline of events and activities happening during SRCAS Hackathon.",
   keywords:
-    "Hackathon schedule, Timeline, Events, IIITDMJ, Hackbyte, Coding, Programming, Tech",
+    "Hackathon schedule, Timeline, Events, SRCAS, Hacksphere, Coding, Programming, Tech",
   openGraph: {
-    title: "Schedule | HackByte",
+    title: "Schedule | HackSphere",
     description:
-      "Check out the schedule for HackByte! Stay updated with the timeline of events and activities happening during IIIT Jabalpur's hackathon.",
+      "Check out the schedule for HackByte! Stay updated with the timeline of events and activities happening during SRCAS hackathon.",
     url: "https://hackbyte.in/schedule",
     images:
       "https://res.cloudinary.com/drtmfrghg/image/upload/v1708016443/opengraph-image_vkiopn.jpg",
-    siteName: "HackByte - IIITDMJ Hackathon",
+    siteName: "HackSphere - SRCAS Hackathon",
     type: "website",
     locale: "en_US",
   },

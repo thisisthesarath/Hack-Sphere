@@ -3,7 +3,7 @@
 import Image from "next/image";
 import { motion } from "framer-motion";
 import {
-  TwitterLogoIcon,
+  InstagramLogoIcon,
   LinkedInLogoIcon,
   GitHubLogoIcon,
 } from "@radix-ui/react-icons";
@@ -24,7 +24,7 @@ const HumansCard = ({
   role,
   profilepic,
   linkedin,
-  twitter,
+  instagram,
   github,
 }) => {
   const defaultGradient =
@@ -69,7 +69,7 @@ const HumansCard = ({
             )}
             <div className="flex gap-6 py-2">
               <SocialMediaIcon href={linkedin} Icon={LinkedInLogoIcon} />
-              <SocialMediaIcon href={twitter} Icon={TwitterLogoIcon} />
+              <SocialMediaIcon href={instagram} Icon={InstagramLogoIcon} />
               {name !== "Aditya Raj" && (
                 <SocialMediaIcon href={github} Icon={GitHubLogoIcon} />
               )}

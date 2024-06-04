@@ -12,16 +12,16 @@ import Footer from "@/components/Footer";
 import "./page.css";
 
 export const metadata = {
-  title: "FAQ | HackByte",
-  description: "Frequently asked questions about HackByte.",
-  keywords: "FAQ, HackByte, IIITDMJ, Hackathon",
+  title: "FAQ | HackSphere",
+  description: "Frequently asked questions about HackSphere.",
+  keywords: "FAQ, HackSphere, SRCAS, Hackathon",
   openGraph: {
-    title: "FAQ | HackByte",
-    description: "Frequently asked questions about HackByte.",
+    title: "FAQ | HackSphere",
+    description: "Frequently asked questions about HackSphere.",
     url: "https://hackbyte.in/faq",
     images:
       "https://res.cloudinary.com/drtmfrghg/image/upload/v1708016443/opengraph-image_vkiopn.jpg",
-    siteName: "HackByte - IIITDMJ Hackathon",
+    siteName: "HackSphere - SRCAS Hackathon",
     type: "website",
     locale: "en_US",
   },
@@ -119,7 +119,7 @@ export default function FAQ() {
             </div>
             <img
               className="w-44 h-44 md:hidden lg:block xl:h-60 xl:w-60 rotatingContainer"
-              src="/getInTouchImage.svg"
+              src="/hackbyte.png"
               alt="Get in touch"
             />
           </div>

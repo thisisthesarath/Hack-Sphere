@@ -25,19 +25,19 @@ import FooterAnimation from "@/components/FooterAnimation";
 import Footer from "@/components/Footer";
 
 export const metadata = {
-  title: "Partners | HackByte",
+  title: "Partners | HackSphere",
   description:
-    "Explore the invaluable support from our esteemed sponsors and partners at HackByte – the premier hackathon hosted by IIITDMJ. Discover their contributions and partnerships, playing a pivotal role in empowering the coding community.",
+    "Explore the invaluable support from our esteemed sponsors and partners at HackSphere – the premier hackathon hosted by SRCAS. Discover their contributions and partnerships, playing a pivotal role in empowering the coding community.",
   keywords:
-    "Sponsors, Partners, Hackathon, IIITDMJ, Hackbyte, Coding, Programming, Tech, Collaboration, Innovation, Community Support, Technology Events",
+    "Sponsors, Partners, Hackathon, SRCAS, HackSphere, Coding, Programming, Tech, Collaboration, Innovation, Community Support, Technology Events",
   openGraph: {
-    title: "Partners | HackByte",
+    title: "Partners | HackSphere",
     description:
-      "Explore the invaluable support from our esteemed sponsors and partners at HackByte – the premier hackathon hosted by IIITDMJ. Discover their contributions and partnerships, playing a pivotal role in empowering the coding community.",
+      "Explore the invaluable support from our esteemed sponsors and partners at HackSphere – the premier hackathon hosted by SRCAS. Discover their contributions and partnerships, playing a pivotal role in empowering the coding community.",
     url: "https://hackbyte.in/partners",
     images:
       "https://res.cloudinary.com/drtmfrghg/image/upload/v1708016443/opengraph-image_vkiopn.jpg",
-    siteName: "HackByte - IIITDMJ Hackathon",
+    siteName: "HackSphere - SRCAS Hackathon",
     type: "website",
     locale: "en_US",
   },

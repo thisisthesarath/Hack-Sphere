@@ -6,19 +6,19 @@ import FooterAnimation from "@/components/FooterAnimation";
 import Footer from "@/components/Footer";
 
 export const metadata = {
-  title: "Gallery | HackByte",
+  title: "Gallery | HackSphere",
   description:
-    "Discover memorable moments from past HackByte events at IIITDMJ, explore images, and feel the excitement of the coding community.",
+    "Discover memorable moments from past HackSphere events at SRCAS, explore images, and feel the excitement of the coding community.",
   keywords:
-    "Hackathon, IIITDMJ, Hackbyte, Coding, Programming, Tech, Gallery, Photos, Videos, Past Events, Previous Events",
+    "Hackathon, SRCAS, HackSphere, Coding, Programming, Tech, Gallery, Photos, Videos, Past Events, Previous Events",
   openGraph: {
-    title: "Gallery | HackByte",
+    title: "Gallery | HackSphere",
     description:
-      "Discover memorable moments from past HackByte events at IIITDMJ, explore images, and feel the excitement of the coding community.",
+      "Discover memorable moments from past HackSphere events at SRCAS, explore images, and feel the excitement of the coding community.",
     url: "https://hackbyte.in/gallery",
     images:
       "https://res.cloudinary.com/drtmfrghg/image/upload/v1708016443/opengraph-image_vkiopn.jpg",
-    siteName: "HackByte - IIITDMJ Hackathon",
+    siteName: "HackSphere - SRCAS Hackathon",
     type: "website",
     locale: "en_US",
   },

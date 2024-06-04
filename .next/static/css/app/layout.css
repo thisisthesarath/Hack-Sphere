@@ -1559,15 +1559,11 @@ video {
   --tw-text-opacity: 1;
   color: rgb(245 240 216 / var(--tw-text-opacity));
 }
-.text-\[\#ffa42c\] {
-  --tw-text-opacity: 1;
-  color: rgb(255 164 44 / var(--tw-text-opacity));
-}
-.text-\[\#fff134\] {
-  --tw-text-opacity: 1;
-  color: rgb(255 241 52 / var(--tw-text-opacity));
-}
 .text-\[\#fff\] {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+.text-\[\#ffffff\] {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }

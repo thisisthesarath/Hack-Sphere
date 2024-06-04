@@ -34,19 +34,19 @@ import FooterAnimation from "@/components/FooterAnimation";
 import Footer from "@/components/Footer";
 
 export const metadata = {
-  title: "Prizes | HackByte",
+  title: "Prizes | HackSphere",
   description:
-    "Discover the exciting prizes at HackByte! Explore the rewards, recognition, and opportunities awaiting you. Connect with us for more information on IIIT Jabalpur's hackathon.",
+    "Discover the exciting prizes at HackSphere! Explore the rewards, recognition, and opportunities awaiting you. Connect with us for more information on SRCAS hackathon.",
   keywords:
-    "Hackathon prizes, Rewards, Hackathon, IIITDMJ, Hackbyte, Coding, Programming, Tech",
+    "Hackathon prizes, Rewards, Hackathon, SRCAS, HackSphere, Coding, Programming, Tech",
   openGraph: {
-    title: "Prizes | HackByte",
+    title: "Prizes | HackSphere",
     description:
-      "Discover the exciting prizes at HackByte! Explore the rewards, recognition, and opportunities awaiting you. Connect with us for more information on IIIT Jabalpur's hackathon.",
+      "Discover the exciting prizes at HackSphere! Explore the rewards, recognition, and opportunities awaiting you. Connect with us for more information on SRCAS hackathon.",
     url: "https://hackbyte.in/prizes",
     images:
       "https://res.cloudinary.com/drtmfrghg/image/upload/v1708016443/opengraph-image_vkiopn.jpg",
-    siteName: "HackByte - IIITDMJ Hackathon",
+    siteName: "HackSphere - SRCAS Hackathon",
     type: "website",
     locale: "en_US",
   },
