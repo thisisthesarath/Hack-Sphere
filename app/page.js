@@ -327,7 +327,7 @@ export default function Home() {
 
         <div className="max-w-xl flex justify-center items-center mb-16 lg:mb-0">
           <div className="max-w-md md:max-w-sm lg:max-w-md">
-            <img src="/aboutPage/about_img2.png" />
+            <img src="/aboutPage/cards.png" />
           </div>
         </div>
       </div>

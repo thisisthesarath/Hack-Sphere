@@ -6,6 +6,7 @@ import classes from "./index.module.css";
 import Link from "next/link";
 import Image from "next/image";
 import HBMobileLogo from "@/public/HBMobileLogo.svg";
+import MobileLogo from "@/public/mobileLogo.png";
 import { AnimatePresence, motion } from "framer-motion";
 
 const navigationItems = [
@@ -63,7 +64,7 @@ export default function Navbar() {
     <>
       <nav className="absolute sm:z-[2] w-full flex items-center xl:justify-center px-4 pt-8">
         <Image
-          src={HBMobileLogo}
+          src={MobileLogo}
           alt="Hackathon-Mobile-Logo"
           className="md:hidden"
           width={"6rem"}
