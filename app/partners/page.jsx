@@ -15,6 +15,7 @@ import auth0 from "@/public/partnersPage/auth0.webp";
 import taipy from "@/public/partnersPage/taipy.jpg";
 import godaddy from "@/public/partnersPage/godaddy.webp";
 
+import srcas from "@/public/srcas.jpeg";
 import balsamiq from "@/public/partnersPage/balsamiq.webp";
 import edubard from "@/public/partnersPage/edubard.webp";
 import wolfram from "@/public/partnersPage/wolfram.webp";
@@ -44,111 +45,111 @@ export const metadata = {
 };
 
 const normalSponsorsData = [
-  {
-    sponsor: "MLH",
-    category: "Platform Partner",
-    sponsorimgsrc: mlh,
-    site: "https://mlh.io",
-  },
-  {
-    sponsor: "GitHub",
-    category: "Gold Sponsor",
-    sponsorimgsrc: github,
-    site: "https://gh.io/hackbyte2",
-  },
-  {
-    sponsor: "Postman",
-    category: "Gold Sponsor",
-    sponsorimgsrc: postman,
-    site: "https://community.postman.com",
-  },
-  {
-    sponsor: "Bobble Fan Store",
-    category: "Merch Partner",
-    sponsorimgsrc: bobble,
-    site: "https://fanstore.bobble.ai",
-  },
-  {
-    sponsor: "Godspeed Systems",
-    category: "Silver Sponsor",
-    sponsorimgsrc: godspeed,
-    site: "https://godspeed.systems",
-  },
+  // {
+  //   sponsor: "MLH",
+  //   category: "Platform Partner",
+  //   sponsorimgsrc: mlh,
+  //   site: "https://mlh.io",
+  // },
+  // {
+  //   sponsor: "GitHub",
+  //   category: "Gold Sponsor",
+  //   sponsorimgsrc: github,
+  //   site: "https://gh.io/hackbyte2",
+  // },
+  // {
+  //   sponsor: "Postman",
+  //   category: "Gold Sponsor",
+  //   sponsorimgsrc: postman,
+  //   site: "https://community.postman.com",
+  // },
+  // {
+  //   sponsor: "Bobble Fan Store",
+  //   category: "Merch Partner",
+  //   sponsorimgsrc: bobble,
+  //   site: "https://fanstore.bobble.ai",
+  // },
+  // {
+  //   sponsor: "Godspeed Systems",
+  //   category: "Silver Sponsor",
+  //   sponsorimgsrc: godspeed,
+  //   site: "https://godspeed.systems",
+  // },
   {
     sponsor: "Devfolio",
     category: "Platform Partner",
     sponsorimgsrc: devfolio,
     site: "https://devfolio.co",
   },
-  {
-    sponsor: "Virtual Protocol",
-    category: "Bronze Sponsor",
-    sponsorimgsrc: virtualProtocol,
-    site: "https://www.virtuals.io/",
-  },
-  {
-    sponsor: "NextGen",
-    category: "Bronze Sponsor",
-    sponsorimgsrc: nextgen,
-    site: "https://nextgenglobalhub.github.io/opensourcecohort/",
-  },
-  {
-    sponsor: "Auth0",
-    category: "Track Sponsor",
-    sponsorimgsrc: auth0,
-    site: "http://hackp.ac/auth0",
-  },
-  {
-    sponsor: "Taipy",
-    category: "Track Sponsor",
-    sponsorimgsrc: taipy,
-    site: "https://hackp.ac/taipy-gettingstarted",
-  },
-  {
-    sponsor: "Go Daddy Registry",
-    category: "Track Sponsor",
-    sponsorimgsrc: godaddy,
-    site: "http://hackp.ac/godaddyregistry",
-  },
+  // {
+  //   sponsor: "Virtual Protocol",
+  //   category: "Bronze Sponsor",
+  //   sponsorimgsrc: virtualProtocol,
+  //   site: "https://www.virtuals.io/",
+  // },
+  // {
+  //   sponsor: "NextGen",
+  //   category: "Bronze Sponsor",
+  //   sponsorimgsrc: nextgen,
+  //   site: "https://nextgenglobalhub.github.io/opensourcecohort/",
+  // },
+  // {
+  //   sponsor: "Auth0",
+  //   category: "Track Sponsor",
+  //   sponsorimgsrc: auth0,
+  //   site: "http://hackp.ac/auth0",
+  // },
+  // {
+  //   sponsor: "Taipy",
+  //   category: "Track Sponsor",
+  //   sponsorimgsrc: taipy,
+  //   site: "https://hackp.ac/taipy-gettingstarted",
+  // },
+  // {
+  //   sponsor: "Go Daddy Registry",
+  //   category: "Track Sponsor",
+  //   sponsorimgsrc: godaddy,
+  //   site: "http://hackp.ac/godaddyregistry",
+  // },
 ];
 
 const inKindSponsorsData = [
   {
-    sponsor: "Balsamiq",
+    sponsor: "SRCAS",
     category: "Community Sponsor",
-    sponsorimgsrc: balsamiq,
-    site: "https://balsamiq.com",
+    sponsorimgsrc: srcas,
+    site: "https://srcas.ac.in",
   },
-  {
-    sponsor: "Edubard",
-    category: "Media Partner",
-    sponsorimgsrc: edubard,
-    site: "https://edubard.in",
-  },
-  {
-    sponsor: "Wolfram",
-    category: "Community Sponsor",
-    sponsorimgsrc: wolfram,
-    site: "https://www.wolfram.com/wolfram-one/",
-  },
-  {
-    sponsor: "MongoDB",
-    category: "Community Sponsor",
-    sponsorimgsrc: mongodb,
-    site: "https://www.mongodb.com/",
-  },
-  {
-    sponsor: "Finlatics",
-    category: "Community Sponsor",
-    sponsorimgsrc: finlatics,
-    site: "https://www.finlatics.com/",
-  },
-  {
-    sponsor: "JDoodle",
-    category: "Community Sponsor",
-    sponsorimgsrc: jdoodle,
-    site: "https://www.jdoodle.com/?utm_source=Event+Website&utm_medium=Event+Sponsorship&utm_campaign=HackByte+Sponsorship+2024&utm_id=HackByte+2.0",
-  },
+  // {
+  //   sponsor: "Edubard",
+  //   category: "Media Partner",
+  //   sponsorimgsrc: edubard,
+  //   site: "https://edubard.in",
+  // },
+  // {
+  //   sponsor: "Wolfram",
+  //   category: "Community Sponsor",
+  //   sponsorimgsrc: wolfram,
+  //   site: "https://www.wolfram.com/wolfram-one/",
+  // },
+  // {
+  //   sponsor: "MongoDB",
+  //   category: "Community Sponsor",
+  //   sponsorimgsrc: mongodb,
+  //   site: "https://www.mongodb.com/",
+  // },
+  // {
+  //   sponsor: "Finlatics",
+  //   category: "Community Sponsor",
+  //   sponsorimgsrc: finlatics,
+  //   site: "https://www.finlatics.com/",
+  // },
+  // {
+  //   sponsor: "JDoodle",
+  //   category: "Community Sponsor",
+  //   sponsorimgsrc: jdoodle,
+  //   site: "https://www.jdoodle.com/?utm_source=Event+Website&utm_medium=Event+Sponsorship&utm_campaign=HackByte+Sponsorship+2024&utm_id=HackByte+2.0",
+  // },
 ];
 
 const Partners = () => {
