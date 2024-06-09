@@ -53,6 +53,26 @@ export default function Home() {
     },
   ];
 
+  const images = [
+    "/footer/sdg/1.png",
+    "/footer/sdg/2.png",
+    "/footer/sdg/3.png",
+    "/footer/sdg/4.png",
+    "/footer/sdg/5.png",
+    "/footer/sdg/6.png",
+    "/footer/sdg/7.png",
+    "/footer/sdg/8.png",
+    "/footer/sdg/9.png",
+    "/footer/sdg/10.png",
+    "/footer/sdg/11.png",
+    "/footer/sdg/12.png",
+    "/footer/sdg/13.png",
+    "/footer/sdg/14.png",
+    "/footer/sdg/15.png",
+    "/footer/sdg/16.png",
+    "/footer/sdg/17.png",
+  ];
+
   const themes = [
     {
       title: "Theme 1",
@@ -224,6 +244,20 @@ export default function Home() {
               </div>
             </div>
           </div>
+
+          <div className="hidden lg:flex gap-2"> {/* Add gap-2 for spacing between images */}
+            {Array.from({ length: 17 }, (_, i) => (
+              <img
+                key={i}
+                src={`/footer/sdg/${i + 1}.png`}
+                alt={`SDG ${i + 1}`}
+                className="w-7 h-7" // Set fixed width and height
+              />
+            ))}
+          </div>
+
+
+
           <div className="hidden lg:flex flex-col items-end gap-4">
             <p
               className="text-[#FAF8ED] text-[1rem] xl:text-[1.25rem] 
