@@ -273,7 +273,7 @@ export default function Schedule() {
                   className="text-[#F5F0D8] text-center font-normal text-[2.25rem]
                     md:text-[3rem]"
                 >
-                  Day 1 Timeline
+                  Round 1 Timeline
                 </DialogTitle>
                 <DialogDescription className="text-white">
                   <ScrollArea className="h-[500px] lg:h-[350px] w-full overflow-auto">
@@ -377,7 +377,7 @@ export default function Schedule() {
                   className="text-[#F5F0D8] text-center font-normal text-[2.25rem]
                     md:text-[3rem]"
                 >
-                  Day 2 Timeline
+                  Announcements Timeline
                 </DialogTitle>
                 <DialogDescription className="text-white">
                   <ScrollArea className="h-[500px] lg:h-[350px] w-full overflow-auto">
@@ -482,7 +482,7 @@ export default function Schedule() {
                   className="text-[#F5F0D8] text-center font-normal text-[2.25rem]
                     md:text-[3rem]"
                 >
-                  Day 3 Timeline
+                  Finale Timeline
                 </DialogTitle>
                 <DialogDescription className="text-white">
                   <ScrollArea className="h-[500px] lg:h-[350px] w-full overflow-auto">
