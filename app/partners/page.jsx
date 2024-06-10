@@ -3,10 +3,10 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import TitleSponsorCard from "@/components/TitleSponsorCard";
 import SponsorCard from "@/components/ui/cards";
 
-import mlh from "@/public/partnersPage/mlh.webp";
-import github from "@/public/partnersPage/github.jpg";
-import postman from "@/public/partnersPage/postman.jpg";
-import bobble from "@/public/partnersPage/bobble.webp";
+import deloitte from "@/public/partnersPage/deloitte.png";
+import tcs from "@/public/partnersPage/tcs.jpg";
+import startuptn from "@/public/partnersPage/startuptn.jpg";
+import viyen from "@/public/partnersPage/viyen.jpeg";
 import godspeed from "@/public/partnersPage/godSpeed.jpg";
 import devfolio from "@/public/partnersPage/devfolio.webp";
 import virtualProtocol from "@/public/partnersPage/virtualProtocol.jpg";
@@ -45,30 +45,30 @@ export const metadata = {
 };
 
 const normalSponsorsData = [
-  // {
-  //   sponsor: "MLH",
-  //   category: "Platform Partner",
-  //   sponsorimgsrc: mlh,
-  //   site: "https://mlh.io",
-  // },
-  // {
-  //   sponsor: "GitHub",
-  //   category: "Gold Sponsor",
-  //   sponsorimgsrc: github,
-  //   site: "https://gh.io/hackbyte2",
-  // },
-  // {
-  //   sponsor: "Postman",
-  //   category: "Gold Sponsor",
-  //   sponsorimgsrc: postman,
-  //   site: "https://community.postman.com",
-  // },
-  // {
-  //   sponsor: "Bobble Fan Store",
-  //   category: "Merch Partner",
-  //   sponsorimgsrc: bobble,
-  //   site: "https://fanstore.bobble.ai",
-  // },
+  {
+    sponsor: "Deloitte.",
+    category: "Knowledge Partner",
+    sponsorimgsrc: deloitte,
+    site: "https://www2.deloitte.com/us/en.html",
+  },
+  {
+    sponsor: "TCS",
+    category: "Knowledge Partner",
+    sponsorimgsrc: tcs,
+    site: "https://www.tcs.com/",
+  },
+  {
+    sponsor: "StartUpTN",
+    category: "Knowledge Partner",
+    sponsorimgsrc: startuptn,
+    site: "https://startuptn.in/",
+  },
+  {
+    sponsor: "Viyen Biotech",
+    category: "Knowledge Partner",
+    sponsorimgsrc: viyen,
+    site: "https://www.viyenbiotech.com/",
+  },
   // {
   //   sponsor: "Godspeed Systems",
   //   category: "Silver Sponsor",
@@ -114,41 +114,11 @@ const normalSponsorsData = [
 ];
 
 const inKindSponsorsData = [
-  {
-    sponsor: "SRCAS",
-    category: "Community Sponsor",
-    sponsorimgsrc: srcas,
-    site: "https://srcas.ac.in",
-  },
   // {
-  //   sponsor: "Edubard",
-  //   category: "Media Partner",
-  //   sponsorimgsrc: edubard,
-  //   site: "https://edubard.in",
-  // },
-  // {
-  //   sponsor: "Wolfram",
+  //   sponsor: "SRCAS",
   //   category: "Community Sponsor",
-  //   sponsorimgsrc: wolfram,
-  //   site: "https://www.wolfram.com/wolfram-one/",
-  // },
-  // {
-  //   sponsor: "MongoDB",
-  //   category: "Community Sponsor",
-  //   sponsorimgsrc: mongodb,
-  //   site: "https://www.mongodb.com/",
-  // },
-  // {
-  //   sponsor: "Finlatics",
-  //   category: "Community Sponsor",
-  //   sponsorimgsrc: finlatics,
-  //   site: "https://www.finlatics.com/",
-  // },
-  // {
-  //   sponsor: "JDoodle",
-  //   category: "Community Sponsor",
-  //   sponsorimgsrc: jdoodle,
-  //   site: "https://www.jdoodle.com/?utm_source=Event+Website&utm_medium=Event+Sponsorship&utm_campaign=HackByte+Sponsorship+2024&utm_id=HackByte+2.0",
+  //   sponsorimgsrc: srcas,
+  //   site: "https://srcas.ac.in",
   // },
 ];
 
@@ -180,7 +150,7 @@ const Partners = () => {
           defaultValue="Sponsors"
           className="flex flex-col justify-center items-center text-white"
         >
-          <TabsList className="mb-16 w-[19rem] min-w-[321px]:w-80 sm:w-[488px]">
+          {/* <TabsList className="mb-16 w-[19rem] min-w-[321px]:w-80 sm:w-[488px]">
             <TabsTrigger
               value="Sponsors"
               className="sm:p-4 p-2 sm:w-60 w-40 min-[300px]:text-lg sm:text-2xl 
@@ -195,7 +165,7 @@ const Partners = () => {
             >
               In Kind Sponsors
             </TabsTrigger>
-          </TabsList>
+          </TabsList> */}
           <TabsContent value="Sponsors">
             <div className="w-full flex flex-col items-center gap-8 xl:gap-12">
               <TitleSponsorCard />
@@ -210,7 +180,7 @@ const Partners = () => {
               </div>
             </div>
           </TabsContent>
-          <TabsContent value="InKind Sponsors">
+          {/* <TabsContent value="InKind Sponsors">
             <div
               className="w-full grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 
                 gap-8 xl:gap-12"
@@ -219,7 +189,7 @@ const Partners = () => {
                 return <SponsorCard key={index} index={index} {...sponsor} />;
               })}
             </div>
-          </TabsContent>
+          </TabsContent> */}
         </Tabs>
       </div>
 

@@ -226,7 +226,7 @@ export default function Home() {
                 />
                 <p className="text-[#FAF8ED] text-[0.75rem] font-[600]">
                   Organised by
-                  <br className="hidden md:block" /> The Programming Club of
+                  <br className="hidden md:block" /> Programming Club of
                   SRCAS
                 </p>
               </div>
@@ -244,18 +244,6 @@ export default function Home() {
               </div>
             </div>
           </div>
-
-          <div className="hidden lg:flex gap-2"> {/* Add gap-2 for spacing between images */}
-            {Array.from({ length: 17 }, (_, i) => (
-              <img
-                key={i}
-                src={`/footer/sdg/${i + 1}.png`}
-                alt={`SDG ${i + 1}`}
-                className="w-7 h-7" // Set fixed width and height
-              />
-            ))}
-          </div>
-
 
 
           <div className="hidden lg:flex flex-col items-end gap-4">
@@ -285,7 +273,25 @@ export default function Home() {
             </div>
           </div>
         </div>
+
+        <div className="flex justify-center items-center p-4"> {/* Center the section and add padding */}
+          <div className="flex gap-3.5 overflow-x-auto max-w-full"> {/* Handle horizontal overflow */}
+            {Array.from({ length: 17 }, (_, i) => (
+              <img
+                key={i}
+                src={`/sdgSquare/${i + 1}.png`}
+                alt={`SDG ${i + 1}`}
+                className="w-16 h-16 flex-shrink-0" // Fixed width and height
+              />
+            ))}
+          </div>
+        </div>
+
       </div>
+
+      
+
+
 
       <div className="w-full flex flex-col bg-[#101010]">
         <div className="flex flex-col p-4 md:px-12 xl:px-20 py-16 md:py-24">

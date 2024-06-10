@@ -208,7 +208,7 @@ export default function Prizes() {
             <div className="grid grid-cols-1">
               <PrizeCard
                 amount="10k"
-                category="1st prize- Gold"
+                category="1st prize"
                 default_bg="radial-gradient(116.96% 115.94% at 9.81% 9.24%, #383300 0%, rgba(56, 50, 0, 0.17) 100%)"
                 hover_bg="radial-gradient(116.96% 115.94% at 9.81% 9.24%, #383300 0%, rgba(56, 50, 0, 0.17) 100%)"
               />
@@ -217,7 +217,7 @@ export default function Prizes() {
             <div className="grid grid-cols-1">
               <PrizeCard
                 amount="5k"
-                category="2nd prize- Silver"
+                category="2nd prize"
                 default_bg="radial-gradient(148.8% 129.29% at 94.87% 3.94%, #363636 0%, rgba(26, 26, 26, 0.27) 100%)"
                 hover_bg="radial-gradient(371.89% 134.33% at 3.21% 1.26%,rgba(255, 255, 255, 0.07) 0%,rgba(217, 217, 217, 0.00) 100%)"
               />
