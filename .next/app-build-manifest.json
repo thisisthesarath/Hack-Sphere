@@ -18,12 +18,6 @@
       "static/css/app/not-found.css",
       "static/chunks/app/not-found.js"
     ],
-    "/prizes/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/css/app/prizes/page.css",
-      "static/chunks/app/prizes/page.js"
-    ],
     "/partners/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",

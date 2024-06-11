@@ -267,7 +267,7 @@ export default function Home() {
                 Icon={LinkedInLogoIcon}
               />
               <SocialMediaIcon
-                href="https://discord.gg/NTueHjdPn8"
+                href="https://discord.com"
                 Icon={DiscordLogoIcon}
               />
             </div>

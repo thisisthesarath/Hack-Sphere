@@ -659,6 +659,9 @@ video {
 .h-12 {
   height: 3rem;
 }
+.h-16 {
+  height: 4rem;
+}
 .h-2 {
   height: 0.5rem;
 }
@@ -716,12 +719,6 @@ video {
 .h-full {
   height: 100%;
 }
-.h-16 {
-  height: 4rem;
-}
-.max-h-20 {
-  max-height: 5rem;
-}
 .min-h-fit {
   min-height: -moz-fit-content;
   min-height: fit-content;
@@ -734,6 +731,9 @@ video {
 }
 .w-12 {
   width: 3rem;
+}
+.w-16 {
+  width: 4rem;
 }
 .w-2 {
   width: 0.5rem;
@@ -795,12 +795,6 @@ video {
 }
 .w-full {
   width: 100%;
-}
-.w-9 {
-  width: 2.25rem;
-}
-.w-16 {
-  width: 4rem;
 }
 .min-w-\[15rem\] {
   min-width: 15rem;
@@ -954,6 +948,9 @@ video {
 .gap-3 {
   gap: 0.75rem;
 }
+.gap-3\.5 {
+  gap: 0.875rem;
+}
 .gap-4 {
   gap: 1rem;
 }
@@ -965,9 +962,6 @@ video {
 }
 .gap-8 {
   gap: 2rem;
-}
-.gap-3\.5 {
-  gap: 0.875rem;
 }
 .space-x-2 > :not([hidden]) ~ :not([hidden]) {
   --tw-space-x-reverse: 0;
@@ -2341,14 +2335,6 @@ scrollbar-thumb {
     width: auto;
   }
 
-  .md\:w-\[400px\] {
-    width: 400px;
-  }
-
-  .md\:w-\[500px\] {
-    width: 500px;
-  }
-
   .md\:max-w-\[18rem\] {
     max-width: 18rem;
   }
@@ -2748,10 +2734,6 @@ scrollbar-thumb {
 
   .lg\:w-auto {
     width: auto;
-  }
-
-  .lg\:w-\[550px\] {
-    width: 550px;
   }
 
   .lg\:max-w-\[25rem\] {

@@ -7,21 +7,9 @@ import deloitte from "@/public/partnersPage/deloitte.png";
 import tcs from "@/public/partnersPage/tcs.jpg";
 import startuptn from "@/public/partnersPage/startuptn.jpg";
 import viyen from "@/public/partnersPage/viyen.jpeg";
-import godspeed from "@/public/partnersPage/godSpeed.jpg";
 import devfolio from "@/public/partnersPage/devfolio.webp";
-import virtualProtocol from "@/public/partnersPage/virtualProtocol.jpg";
-import nextgen from "@/public/partnersPage/nextgen.jpg";
-import auth0 from "@/public/partnersPage/auth0.webp";
-import taipy from "@/public/partnersPage/taipy.jpg";
-import godaddy from "@/public/partnersPage/godaddy.webp";
 
-import srcas from "@/public/srcas.jpeg";
-import balsamiq from "@/public/partnersPage/balsamiq.webp";
-import edubard from "@/public/partnersPage/edubard.webp";
-import wolfram from "@/public/partnersPage/wolfram.webp";
-import mongodb from "@/public/partnersPage/mongodb.webp";
-import finlatics from "@/public/partnersPage/finlatics.webp";
-import jdoodle from "@/public/partnersPage/jdoodle.png";
+
 import FooterAnimation from "@/components/FooterAnimation";
 import Footer from "@/components/Footer";
 
@@ -49,68 +37,27 @@ const normalSponsorsData = [
     sponsor: "Deloitte.",
     category: "Knowledge Partner",
     sponsorimgsrc: deloitte,
-    site: "https://www2.deloitte.com/us/en.html",
   },
   {
     sponsor: "TCS",
     category: "Knowledge Partner",
     sponsorimgsrc: tcs,
-    site: "https://www.tcs.com/",
   },
   {
     sponsor: "StartUpTN",
     category: "Knowledge Partner",
     sponsorimgsrc: startuptn,
-    site: "https://startuptn.in/",
   },
   {
     sponsor: "Viyen Biotech",
     category: "Knowledge Partner",
     sponsorimgsrc: viyen,
-    site: "https://www.viyenbiotech.com/",
   },
-  // {
-  //   sponsor: "Godspeed Systems",
-  //   category: "Silver Sponsor",
-  //   sponsorimgsrc: godspeed,
-  //   site: "https://godspeed.systems",
-  // },
   {
     sponsor: "Devfolio",
     category: "Platform Partner",
     sponsorimgsrc: devfolio,
-    site: "https://devfolio.co",
   },
-  // {
-  //   sponsor: "Virtual Protocol",
-  //   category: "Bronze Sponsor",
-  //   sponsorimgsrc: virtualProtocol,
-  //   site: "https://www.virtuals.io/",
-  // },
-  // {
-  //   sponsor: "NextGen",
-  //   category: "Bronze Sponsor",
-  //   sponsorimgsrc: nextgen,
-  //   site: "https://nextgenglobalhub.github.io/opensourcecohort/",
-  // },
-  // {
-  //   sponsor: "Auth0",
-  //   category: "Track Sponsor",
-  //   sponsorimgsrc: auth0,
-  //   site: "http://hackp.ac/auth0",
-  // },
-  // {
-  //   sponsor: "Taipy",
-  //   category: "Track Sponsor",
-  //   sponsorimgsrc: taipy,
-  //   site: "https://hackp.ac/taipy-gettingstarted",
-  // },
-  // {
-  //   sponsor: "Go Daddy Registry",
-  //   category: "Track Sponsor",
-  //   sponsorimgsrc: godaddy,
-  //   site: "http://hackp.ac/godaddyregistry",
-  // },
 ];
 
 const inKindSponsorsData = [

@@ -2,8 +2,7 @@
 
 import { useState } from "react";
 import Image from "next/image";
-import logitech from "@/public/partnersPage/logitech.jpg";
-import srcas from "@/public/srcas.jpeg";
+import srcas from "@/public/srcas.png";
 import { ArrowRightIcon } from "@radix-ui/react-icons";
 import { Tilt } from "react-tilt";
 
